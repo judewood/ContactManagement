@@ -10,13 +10,13 @@ Build and debug/run
 
 Run this executable file to start console application:
 
-```\ContactManagement\bin\Debug\net8.0\ContactManagement.exe
+ContactManagement\bin\Debug\net8.0\ContactManagement.exe
 
 Follow the instructions in the console
 
 ## Github
 
-This code is available at
+This code is available at 
 
+https://github.com/judewood/ContactManagement
 
-```
