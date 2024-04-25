@@ -18,9 +18,12 @@ public class ContactServiceTest
     public void AddContact_AddsContactToStore()
     {
         var mockContactDataService = new Mock<IContactDataService>();
+        var mockFileService = new Mock<IFileService>();
         var validContact = GetValidContact();
         mockContactDataService.Setup(x => x.AddContact(It.IsAny<Contact>())).ReturnsAsync(true);
-        var contactService = new ContactService(mockContactDataService.Object);
+        mockFileService.Setup(x => x.Export(It.IsAny<string>(), It.IsAny<IEnumerable<Contact>>())).Returns(true);
+
+        var contactService = new ContactService(mockContactDataService.Object, mockFileService.Object);
 
         var result = contactService.AddContact(validContact).GetAwaiter().GetResult();
 
@@ -32,10 +35,11 @@ public class ContactServiceTest
     {
         const string expectedFeedback = "Contact must have first or last name";
         var mockContactDataService = new Mock<IContactDataService>();
+        var mockFileService = new Mock<IFileService>();
         var validContact = GetValidContact();
         Profile invalidProfile = new(Empty, Empty, validContact.Profile.Phone, validContact.Profile.Email);
         var invalidContact = validContact with { Profile = invalidProfile };
-        var contactService = new ContactService(mockContactDataService.Object);
+        var contactService = new ContactService(mockContactDataService.Object, mockFileService.Object);
 
         var (_, isValidContact, feedback) = contactService.CheckContact(invalidContact);
 
@@ -50,6 +54,7 @@ public class ContactServiceTest
         const string invalidEmail = "invalidEmail";
         var expectedFeedback = $"Please check email is correct.{Environment.NewLine}Please check phone number is correct.{Environment.NewLine}Please check address is complete and correct.";
         var mockContactDataService = new Mock<IContactDataService>();
+        var mockFileService = new Mock<IFileService>();
         var validContact = GetValidContact();
         var validProfile = validContact.Profile;
         var invalidProfile = validProfile with { Phone = invalidPhone, Email = invalidEmail };
@@ -57,7 +62,7 @@ public class ContactServiceTest
         var invalidAddress = validAddress with { City = "" };
         var invalidContact = validContact with { Profile = invalidProfile, Address = invalidAddress };
 
-        var contactService = new ContactService(mockContactDataService.Object);
+        var contactService = new ContactService(mockContactDataService.Object, mockFileService.Object);
         var (actualContact, isValidContact, feedback) = contactService.CheckContact(invalidContact);
 
         Assert.IsTrue(isValidContact);
@@ -72,8 +77,9 @@ public class ContactServiceTest
     public void CheckContact_FormatsAsExpected()
     {
         var mockContactDataService = new Mock<IContactDataService>();
+        var mockFileService = new Mock<IFileService>();
         var validContact = GetValidContact();
-        var contactService = new ContactService(mockContactDataService.Object);
+        var contactService = new ContactService(mockContactDataService.Object, mockFileService.Object);
         var (actualContact, isValidContact, feedback) = contactService.CheckContact(validContact);
 
         Assert.AreEqual(Empty, feedback);
