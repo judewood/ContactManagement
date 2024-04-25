@@ -5,15 +5,11 @@ using System.Text;
 using static System.String;
 
 namespace ContactManagement.Service;
-internal class ContactService(IContactDataService dataService)
+internal class ContactService(IContactDataService dataService, IFileService fileService)
 {
-
+    const int MaxEntryLength = 60;
     public (Contact, bool, string) CheckContact(Contact rawContact)
     {
-        // The validation is deliberately lenient. In my experience is it commercially better to gather data and mark it as valid or otherwise.
-        // This allows our commercial people to try to get in touch with a contact and add/correct missing and invalid details
-        // The IsValid markers can be used to prevent e.g. sending an SMS to an invalid or  non-existent mobile number
-        // This also helps when gathering metrics
         var rawProfile = rawContact.Profile;
         var rawAddress = rawContact.Address;
         if (!IsValidName(rawProfile.FirstName, rawProfile.LastName))
@@ -70,23 +66,33 @@ internal class ContactService(IContactDataService dataService)
         return !IsNullOrWhiteSpace(firstname) && !IsNullOrWhiteSpace(lastName);
     }
 
+    public async Task<bool> ExportContacts(string filepath)
+    {
+        (IEnumerable<Contact> contacts, string error) = await dataService.GetContacts();
+        if (!IsNullOrWhiteSpace(error))
+        {
+            return false;
+        }
+        return fileService.Export(filepath, contacts);
+    }
+
     private Profile GetValidatedProfile(Profile rawProfile)
     {
-        var formattedPhone = rawProfile.Phone.ToWhitespaceRemoved();
-        var formattedEmail = rawProfile.Email.ToWhitespaceRemoved().ToLowerInvariant();
-        var formattedFirstName = rawProfile.FirstName.ToLeadingCapital();
-        var formattedLastName = rawProfile.LastName.ToLeadingCapital();
+        var formattedPhone = rawProfile.Phone.ToWhitespaceRemoved().Truncate(MaxEntryLength);
+        var formattedEmail = rawProfile.Email.ToWhitespaceRemoved().Truncate(MaxEntryLength).ToLowerInvariant();
+        var formattedFirstName = rawProfile.FirstName.Truncate(MaxEntryLength).ToLeadingCapital();
+        var formattedLastName = rawProfile.LastName.Truncate(MaxEntryLength).ToLeadingCapital();
         return new Profile(formattedFirstName, formattedLastName, formattedPhone, formattedEmail, rawProfile.Email.IsValidEmail(), formattedPhone.IsValidPhoneNumber());
 
     }
 
     private Address GetValidatedAddress(Address rawAddress)
     {
-        var formattedAddressLine1 = rawAddress.AddressLine1.Trim();
-        var formattedAddressLine2 = rawAddress.AddressLine2.Trim();
-        var formattedCity = rawAddress.City.Trim().ToLeadingCapital();
-        var formattedCountry = rawAddress.Country.Trim();
-        var formattedPostCode = rawAddress.PostCode.ToPostcode();
+        var formattedAddressLine1 = rawAddress.AddressLine1.Truncate(MaxEntryLength).Trim();
+        var formattedAddressLine2 = rawAddress.AddressLine2.Truncate(MaxEntryLength).Trim();
+        var formattedCity = rawAddress.City.Trim().Truncate(MaxEntryLength).ToLeadingCapital();
+        var formattedCountry = rawAddress.Country.Truncate(MaxEntryLength).Trim();
+        var formattedPostCode = rawAddress.PostCode.Truncate(MaxEntryLength).ToPostcode();
 
         return new Address(formattedAddressLine1, formattedAddressLine2, formattedCity, formattedPostCode, formattedCountry, IsValidAddress(rawAddress));
     }

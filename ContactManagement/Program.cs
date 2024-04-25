@@ -7,7 +7,7 @@ using static System.Console;
 
 
 UserInterfaceService userInterface = new();
-ContactService contactService = new(new ContactDataService());
+ContactService contactService = new(new ContactDataService(), new CsvFileService());
 
 WriteLine("Welcome to Contact Management");
 
@@ -32,17 +32,20 @@ for (; ; )
                             WriteLine("failed to add contact");
                             break;
                         }
+
                         WriteLine("Contact stored Ok:");
                         break;
                     }
+
                     WriteLine("Cancelling request");
                     break;
                 }
+
                 WriteLine($"Contact cannot be added: {feedback}");
                 break;
             }
 
-        case "Q":  //Quit
+        case "Q": //Quit
             {
                 exitRequested = true;
                 WriteLine("Quitting Contact Management");
@@ -58,11 +61,12 @@ for (; ; )
                     WriteLine(error);
                     break;
                 }
+
                 userInterface.DisplaySearchResults(contacts);
                 break;
             }
 
-        case "D":  //Delete Contact
+        case "D": //Delete Contact
             {
                 var id = userInterface.GetId();
                 var result = await contactService.DeleteContactById(id);
@@ -71,6 +75,7 @@ for (; ; )
                     WriteLine($"Deleted contact with Id: {id}");
                     break;
                 }
+
                 WriteLine($"Failed to delete contact with Id: {id}");
             }
 
@@ -94,7 +99,23 @@ for (; ; )
                     userInterface.DisplayContact(updatedContact);
                     break;
                 }
+
                 WriteLine("Failed to update contact with Id: {id}");
+                break;
+            }
+
+        case "X": //Export to csv
+            {
+                string[] paths = { AppDomain.CurrentDomain.BaseDirectory, userInterface.GetCsvFilename() };
+                string fullPath = Path.Combine(paths);
+                var exportedOk = await contactService.ExportContacts(fullPath);
+                if (exportedOk)
+                {
+                    WriteLine($"Contacts exported to: {fullPath}");
+                    break;
+                }
+
+                WriteLine($"Failed to export Contacts to: {fullPath}");
                 break;
             }
     }

@@ -9,6 +9,12 @@ namespace ContactManagement.Extensions;
 public static class StringExtensions
 {
 
+    public static string Truncate(this string value, int maxLength)
+    {
+        if (IsNullOrEmpty(value)) { return value; }
+        return value.Length <= maxLength ? value : value.Substring(0, maxLength);
+    }
+
     public static string ToPostcode(this string str)
     {
         if (str.Length < 3)

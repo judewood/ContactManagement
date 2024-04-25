@@ -28,6 +28,12 @@ internal class ContactDataService : IContactDataService
         return (matches, Empty);
     }
 
+    public async Task<(IEnumerable<Contact> contacts, string error)> GetContacts()
+    {
+        var results = await Task.Run(ContactsStore.GetContacts);
+        return (results, Empty);
+    }
+
     public async Task<bool> DeleteContactById(string id)
     {
         var task = Task.Run(() => ContactsStore.GetContactById(id));

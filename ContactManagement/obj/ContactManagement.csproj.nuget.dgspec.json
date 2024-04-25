@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dotnetprojects\\ContextManagement\\ContactManagement\\ContactManagement.csproj": {}
+    "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\ContactManagement\\ContactManagement.csproj": {}
   },
   "projects": {
-    "C:\\dotnetprojects\\ContextManagement\\ContactManagement\\ContactManagement.csproj": {
+    "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\ContactManagement\\ContactManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dotnetprojects\\ContextManagement\\ContactManagement\\ContactManagement.csproj",
+        "projectUniqueName": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\ContactManagement\\ContactManagement.csproj",
         "projectName": "ContactManagement",
-        "projectPath": "C:\\dotnetprojects\\ContextManagement\\ContactManagement\\ContactManagement.csproj",
+        "projectPath": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\ContactManagement\\ContactManagement.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\dotnetprojects\\ContextManagement\\ContactManagement\\obj\\",
+        "outputPath": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\ContactManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -48,6 +48,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[31.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
