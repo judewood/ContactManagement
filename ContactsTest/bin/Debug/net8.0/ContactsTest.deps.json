@@ -32,6 +32,14 @@
         }
       },
       "coverlet.collector/6.0.0": {},
+      "CsvHelper/31.0.4": {
+        "runtime": {
+          "lib/net8.0/CsvHelper.dll": {
+            "assemblyVersion": "31.0.0.0",
+            "fileVersion": "31.0.4.18"
+          }
+        }
+      },
       "Microsoft.CodeCoverage/17.8.0": {
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
@@ -394,6 +402,9 @@
       },
       "System.Reflection.Metadata/1.6.0": {},
       "ContactManagement/1.0.0": {
+        "dependencies": {
+          "CsvHelper": "31.0.4"
+        },
         "runtime": {
           "ContactManagement.dll": {}
         }
@@ -427,6 +438,13 @@
       "sha512": "sha512-tW3lsNS+dAEII6YGUX/VMoJjBS1QvsxqJeqLaJXub08y1FSjasFPtQ4UBUsudE9PNrzLjooClMsPtY2cZLdXpQ==",
       "path": "coverlet.collector/6.0.0",
       "hashPath": "coverlet.collector.6.0.0.nupkg.sha512"
+    },
+    "CsvHelper/31.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m4ikjUAn4XOD1tShxxk4ui42sHxjHdX52P7fPQ9K7tzJkPTEwiCbvEz3k73mTGSSaPTUCOp9VziQC757IqKLew==",
+      "path": "csvhelper/31.0.4",
+      "hashPath": "csvhelper.31.0.4.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/17.8.0": {
       "type": "package",

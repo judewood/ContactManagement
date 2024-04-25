@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{947CD969-FC18-439B-85FE-3CFA077641BB}|ContactsTest\\ContactsTest.csproj|c:\\dotnetprojects\\contactmanagement3\\contactmanagement\\contactstest\\contactservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947CD969-FC18-439B-85FE-3CFA077641BB}|ContactsTest\\ContactsTest.csproj|solutionrelative:contactstest\\contactservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADACFCC-7614-4D6D-ACB4-DC04261F047E}|ContactManagement\\ContactManagement.csproj|c:\\dotnetprojects\\contactmanagement3\\contactmanagement\\contactmanagement\\service\\csvfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ADACFCC-7614-4D6D-ACB4-DC04261F047E}|ContactManagement\\ContactManagement.csproj|solutionrelative:contactmanagement\\service\\csvfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADACFCC-7614-4D6D-ACB4-DC04261F047E}|ContactManagement\\ContactManagement.csproj|c:\\dotnetprojects\\contactmanagement3\\contactmanagement\\contactmanagement\\service\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ADACFCC-7614-4D6D-ACB4-DC04261F047E}|ContactManagement\\ContactManagement.csproj|solutionrelative:contactmanagement\\service\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3FAFBE98-94C2-4866-BDFD-63075DD57CA4}|Solution Items{3FAFBE98-94C2-4866-BDFD-63075DD57CA4}|C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\Readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{3FAFBE98-94C2-4866-BDFD-63075DD57CA4}|Solution Items{3FAFBE98-94C2-4866-BDFD-63075DD57CA4}|solutionrelative:Readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9ADACFCC-7614-4D6D-ACB4-DC04261F047E}|ContactManagement\\ContactManagement.csproj|c:\\dotnetprojects\\contactmanagement3\\contactmanagement\\contactmanagement\\service\\userinterfaceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9ADACFCC-7614-4D6D-ACB4-DC04261F047E}|ContactManagement\\ContactManagement.csproj|solutionrelative:contactmanagement\\service\\userinterfaceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ADACFCC-7614-4D6D-ACB4-DC04261F047E}|ContactManagement\\ContactManagement.csproj|c:\\dotnetprojects\\contactmanagement3\\contactmanagement\\contactmanagement\\service\\csvfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ADACFCC-7614-4D6D-ACB4-DC04261F047E}|ContactManagement\\ContactManagement.csproj|solutionrelative:contactmanagement\\service\\csvfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9ADACFCC-7614-4D6D-ACB4-DC04261F047E}|ContactManagement\\ContactManagement.csproj|c:\\dotnetprojects\\contactmanagement3\\contactmanagement\\contactmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,20 +43,12 @@
       "RelativeMoniker": "D:0:0:{9ADACFCC-7614-4D6D-ACB4-DC04261F047E}|ContactManagement\\ContactManagement.csproj|solutionrelative:contactmanagement\\data\\contactdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9ADACFCC-7614-4D6D-ACB4-DC04261F047E}|ContactManagement\\ContactManagement.csproj|c:\\dotnetprojects\\contactmanagement3\\contactmanagement\\contactmanagement\\service\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ADACFCC-7614-4D6D-ACB4-DC04261F047E}|ContactManagement\\ContactManagement.csproj|solutionrelative:contactmanagement\\service\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9ADACFCC-7614-4D6D-ACB4-DC04261F047E}|ContactManagement\\ContactManagement.csproj|c:\\dotnetprojects\\contactmanagement3\\contactmanagement\\contactmanagement\\extensions\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9ADACFCC-7614-4D6D-ACB4-DC04261F047E}|ContactManagement\\ContactManagement.csproj|solutionrelative:contactmanagement\\extensions\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FAFBE98-94C2-4866-BDFD-63075DD57CA4}|Solution Items{3FAFBE98-94C2-4866-BDFD-63075DD57CA4}|C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{3FAFBE98-94C2-4866-BDFD-63075DD57CA4}|Solution Items{3FAFBE98-94C2-4866-BDFD-63075DD57CA4}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{947CD969-FC18-439B-85FE-3CFA077641BB}|ContactsTest\\ContactsTest.csproj|c:\\dotnetprojects\\contactmanagement3\\contactmanagement\\contactstest\\contactservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{947CD969-FC18-439B-85FE-3CFA077641BB}|ContactsTest\\ContactsTest.csproj|solutionrelative:contactstest\\contactservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9ADACFCC-7614-4D6D-ACB4-DC04261F047E}|ContactManagement\\ContactManagement.csproj|c:\\dotnetprojects\\contactmanagement3\\contactmanagement\\contactmanagement\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,46 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ContactDataService.cs",
-              "DocumentMoniker": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\ContactManagement\\Data\\ContactDataService.cs",
-              "RelativeDocumentMoniker": "ContactManagement\\Data\\ContactDataService.cs",
-              "ToolTip": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\ContactManagement\\Data\\ContactDataService.cs",
-              "RelativeToolTip": "ContactManagement\\Data\\ContactDataService.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAAB0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T07:15:52.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CsvFileService.cs",
-              "DocumentMoniker": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\ContactManagement\\Service\\CsvFileService.cs",
-              "RelativeDocumentMoniker": "ContactManagement\\Service\\CsvFileService.cs",
-              "ToolTip": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\ContactManagement\\Service\\CsvFileService.cs",
-              "RelativeToolTip": "ContactManagement\\Service\\CsvFileService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T07:15:11.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IContactDataService.cs",
-              "DocumentMoniker": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\ContactManagement\\Data\\IContactDataService.cs",
-              "RelativeDocumentMoniker": "ContactManagement\\Data\\IContactDataService.cs",
-              "ToolTip": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\ContactManagement\\Data\\IContactDataService.cs",
-              "RelativeToolTip": "ContactManagement\\Data\\IContactDataService.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T11:17:59.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\ContactManagement\\Program.cs",
               "RelativeDocumentMoniker": "ContactManagement\\Program.cs",
@@ -121,12 +82,11 @@
               "RelativeToolTip": "ContactManagement\\Program.cs",
               "ViewState": "AQIAAGMAAAAAAAAAAAAAAGwAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T11:01:08.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T11:01:08.608Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ContactsStore.cs",
               "DocumentMoniker": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\ContactManagement\\Repository\\ContactsStore.cs",
               "RelativeDocumentMoniker": "ContactManagement\\Repository\\ContactsStore.cs",
@@ -134,12 +94,11 @@
               "RelativeToolTip": "ContactManagement\\Repository\\ContactsStore.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T11:20:51.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T11:20:51.966Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Readme.md",
               "DocumentMoniker": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\Readme.md",
               "RelativeDocumentMoniker": "Readme.md",
@@ -152,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "StringExtensions.cs",
               "DocumentMoniker": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\ContactManagement\\Extensions\\StringExtensions.cs",
               "RelativeDocumentMoniker": "ContactManagement\\Extensions\\StringExtensions.cs",
@@ -160,12 +119,11 @@
               "RelativeToolTip": "ContactManagement\\Extensions\\StringExtensions.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAAAA0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T13:24:18.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T13:24:18.551Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "UserInterfaceService.cs",
               "DocumentMoniker": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\ContactManagement\\Service\\UserInterfaceService.cs",
               "RelativeDocumentMoniker": "ContactManagement\\Service\\UserInterfaceService.cs",
@@ -173,12 +131,24 @@
               "RelativeToolTip": "ContactManagement\\Service\\UserInterfaceService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T11:06:55.178Z",
+              "WhenOpened": "2024-04-23T11:06:55.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContactServiceTest.cs",
+              "DocumentMoniker": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\ContactsTest\\ContactServiceTest.cs",
+              "RelativeDocumentMoniker": "ContactsTest\\ContactServiceTest.cs",
+              "ToolTip": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\ContactsTest\\ContactServiceTest.cs",
+              "RelativeToolTip": "ContactsTest\\ContactServiceTest.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABcAAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T10:59:29.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "IFileService.cs",
               "DocumentMoniker": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\ContactManagement\\Service\\IFileService.cs",
               "RelativeDocumentMoniker": "ContactManagement\\Service\\IFileService.cs",
@@ -191,7 +161,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "CsvFileService.cs",
+              "DocumentMoniker": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\ContactManagement\\Service\\CsvFileService.cs",
+              "RelativeDocumentMoniker": "ContactManagement\\Service\\CsvFileService.cs",
+              "ToolTip": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\ContactManagement\\Service\\CsvFileService.cs",
+              "RelativeToolTip": "ContactManagement\\Service\\CsvFileService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T07:15:11.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IContactDataService.cs",
+              "DocumentMoniker": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\ContactManagement\\Data\\IContactDataService.cs",
+              "RelativeDocumentMoniker": "ContactManagement\\Data\\IContactDataService.cs",
+              "ToolTip": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\ContactManagement\\Data\\IContactDataService.cs",
+              "RelativeToolTip": "ContactManagement\\Data\\IContactDataService.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T11:17:59.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ContactDataService.cs",
+              "DocumentMoniker": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\ContactManagement\\Data\\ContactDataService.cs",
+              "RelativeDocumentMoniker": "ContactManagement\\Data\\ContactDataService.cs",
+              "ToolTip": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\ContactManagement\\Data\\ContactDataService.cs",
+              "RelativeToolTip": "ContactManagement\\Data\\ContactDataService.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T07:15:52.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ContactService.cs",
               "DocumentMoniker": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\ContactManagement\\Service\\ContactService.cs",
               "RelativeDocumentMoniker": "ContactManagement\\Service\\ContactService.cs",
@@ -199,25 +206,11 @@
               "RelativeToolTip": "ContactManagement\\Service\\ContactService.cs",
               "ViewState": "AQIAAD8AAAAAAAAAAAA7wFoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T07:50:50.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T07:50:50.598Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "ContactServiceTest.cs",
-              "DocumentMoniker": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\ContactsTest\\ContactServiceTest.cs",
-              "RelativeDocumentMoniker": "ContactsTest\\ContactServiceTest.cs",
-              "ToolTip": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\ContactsTest\\ContactServiceTest.cs",
-              "RelativeToolTip": "ContactsTest\\ContactServiceTest.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAcwEcAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T10:59:29.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -225,8 +218,7 @@
               "RelativeToolTip": ".gitignore",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
-              "WhenOpened": "2024-04-23T16:24:47.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T16:24:47.592Z"
             },
             {
               "$type": "Document",
@@ -238,8 +230,7 @@
               "RelativeToolTip": "ContactManagement\\Models\\Address.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAACUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T11:54:05.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T11:54:05.425Z"
             },
             {
               "$type": "Document",
@@ -251,8 +242,7 @@
               "RelativeToolTip": "ContactManagement\\Models\\Contact.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T11:53:23.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T11:53:23.992Z"
             }
           ]
         }

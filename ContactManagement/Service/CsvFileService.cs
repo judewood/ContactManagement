@@ -2,7 +2,7 @@
 using System.Globalization;
 
 namespace ContactManagement.Service;
-internal class CsvFileService : IFileService
+public class CsvFileService : IFileService
 {
     public bool Export<T>(string filepath, IEnumerable<T> data)
     {
