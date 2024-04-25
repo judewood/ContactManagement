@@ -11,5 +11,8 @@
       <_Parameter1>ContactsTest</_Parameter1>
     </AssemblyAttribute>
 </ItemGroup>
+<ItemGroup>
+  <PackageReference Include="CsvHelper" Version="31.0.4" />
+</ItemGroup>
 
 </Project>

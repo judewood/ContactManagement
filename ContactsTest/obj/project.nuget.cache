@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "AriR6JodUl6Zg+Z2V78+OyL6c1RJzrNf8eut7qHLtzHtU7qCpstvQGvimzUBiZ/LcwgTarBn0LSCnCWk5EWHDQ==",
+  "dgSpecHash": "6L7/9UBfDDGBtuLULElDkEfZjEm4d98xz5XvWwx6o/O+heW+5qRC+QHZCyoU/MgLhHUYomvBsiJ2fY+FvVBzrg==",
   "success": true,
-  "projectFilePath": "C:\\dotnetprojects\\ContextManagement\\ContactsTest\\ContactsTest.csproj",
+  "projectFilePath": "C:\\dotnetprojects\\ContactManagement3\\ContactManagement\\ContactsTest\\ContactsTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\csvhelper\\31.0.4\\csvhelper.31.0.4.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.net.test.sdk\\17.8.0\\microsoft.net.test.sdk.17.8.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.8.0\\microsoft.testplatform.objectmodel.17.8.0.nupkg.sha512",

@@ -9,7 +9,7 @@ internal class UserInterfaceService
     public string GetSelection()
     {
         WriteLine();
-        WriteLine("Enter 'A' to add contact, 'S' to search contacts, 'E' to Edit contact, 'D' to delete contact, 'H' for help or 'Q' to quit");
+        WriteLine("Enter 'A' to add contact, 'S' to search contacts, 'E' to Edit contact, 'D' to delete contact, 'X' to export to Csv, 'H' for help or 'Q' to quit");
         return ReadLine().NullToEmpty().Trim().ToUpperInvariant();
     }
 
@@ -87,11 +87,16 @@ internal class UserInterfaceService
     {
         WriteLine($"{Environment.NewLine}{Environment.NewLine}You want to add this contact: ");
         DisplayContact(contact);
-        WriteLine();
-        WriteLine($"{Environment.NewLine}{feedback}");
+        WriteLine($"{Environment.NewLine}{{Environment.NewLine}}{feedback}");
         WriteLine($"{Environment.NewLine}Enter 'y' to Add contact or 'Esc' to cancel");
         var confirmOrCancel = ReadLine().NullToEmpty().ToLowerInvariant();
         return confirmOrCancel == "y";
+    }
+
+    public string GetCsvFilename()
+    {
+        WriteLine($"{Environment.NewLine}Enter file name to export to: ");
+        return ReadLine().NullToEmpty().ToWhitespaceRemoved();
     }
 
     private Profile GetEnteredProfile()

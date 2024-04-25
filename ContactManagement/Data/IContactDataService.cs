@@ -7,6 +7,8 @@ public interface IContactDataService
 
     public Task<(IEnumerable<Contact> contacts, string error)> SearchContactsByName(string searchString);
 
+    public Task<(IEnumerable<Contact> contacts, string error)> GetContacts();
+
     Task<bool> DeleteContactById(string id);
 
     Task<bool> UpdateContact(Contact contact);

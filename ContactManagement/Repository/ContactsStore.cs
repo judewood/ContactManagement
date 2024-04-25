@@ -12,7 +12,7 @@ public static class ContactsStore
         Contacts = Contacts.Append(contact).ToList();
     }
 
-    public static List<Contact> GetContacts()
+    public static IEnumerable<Contact> GetContacts()
     {
         return Contacts.ToList();
     }
